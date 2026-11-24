@@ -1,0 +1,20 @@
+[
+  {"id": "E01", "sport": "football", "titre": "Tournoi de football jeunes", "date": "2026-11-28",
+   "lieu": "Stade municipal", "age_min": 12, "age_max": 17, "places": 8, "prix": 10,
+   "date_limite": "2026-11-25"},
+  {"id": "E02", "sport": "basket", "titre": "Tournoi de basket 3x3", "date": "2026-11-29",
+   "lieu": "Salle omnisports", "age_min": 14, "age_max": 99, "places": 12, "prix": 15,
+   "date_limite": "2026-11-26"},
+  {"id": "E03", "sport": "natation", "titre": "Gala de natation adultes", "date": "2026-12-05",
+   "lieu": "Piscine olympique", "age_min": 18, "age_max": 99, "places": 20, "prix": 12,
+   "date_limite": "2026-12-01"},
+  {"id": "E04", "sport": "course", "titre": "Course de 10 km", "date": "2026-12-06",
+   "lieu": "Parc de la ville", "age_min": 16, "age_max": 99, "places": 0, "prix": 20,
+   "date_limite": "2026-12-02"},
+  {"id": "E05", "sport": "tennis", "titre": "Tournoi de tennis d'automne", "date": "2026-11-22",
+   "lieu": "Club de tennis", "age_min": 10, "age_max": 99, "places": 6, "prix": 25,
+   "date_limite": "2026-11-12"},
+  {"id": "E06", "sport": "volley", "titre": "Tournoi de volley sur la plage", "date": "2026-12-12",
+   "lieu": "Plage municipale", "age_min": 14, "age_max": 99, "places": 16, "prix": 8,
+   "date_limite": "2026-12-08"}
+]

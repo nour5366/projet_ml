@@ -1,0 +1,2 @@
+# Seulement pour le BONUS "mode réel" (étape 4). Inutile en mode MOCK.
+groq==1.7.0

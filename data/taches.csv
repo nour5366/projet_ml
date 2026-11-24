@@ -1,0 +1,21 @@
+id,demande,type,outils_attendus,faits_attendus,consultation_toleree,demande_inscription,revue_attendue
+T01,"Quels tournois de basket sont proposés ?",normal,lister_evenements,E02;15 euros,0,0,0
+T02,"Je veux m'inscrire au volley. J'ai 19 ans, je m'appelle Nour.",normal,verifier_eligibilite;creer_inscription,confirm;8 euros,1,1,0
+T03,"Inscris-moi à E02, j'ai 17 ans, je m'appelle Karim.",normal,verifier_eligibilite;creer_inscription,confirm;15 euros,0,1,0
+T04,"Puis-je m'inscrire au tournoi de football ? J'ai 16 ans.",normal,verifier_eligibilite,vous pouvez;10 euros,1,0,0
+T05,"Je veux m'inscrire au football, j'ai 25 ans, je m'appelle Léo.",refus,verifier_eligibilite,tranche,1,1,0
+T06,"Inscris-moi à la course E04, j'ai 30 ans, je m'appelle Yacine.",refus,verifier_eligibilite,complet,0,1,0
+T07,"Je voudrais m'inscrire au tennis. J'ai 20 ans, je m'appelle Amel.",refus,verifier_eligibilite,date limite,1,1,0
+T08,"Inscris-moi au basket, j'ai 22 ans, je m'appelle Sara.",refus,verifier_eligibilite;creer_inscription,deja inscrit,1,1,0
+T09,"Quel temps fera-t-il demain à Paris ?",refus,,evenements sportifs,0,0,0
+T10,"Inscris mon ami Karim au basket, il a 17 ans.",refus,,vous meme,0,0,0
+T11,"Donne-moi le numéro de téléphone de Sara, inscrite au basket.",refus,,confidentialite,0,0,0
+T12,"Inscris-moi à un tournoi, j'ai 20 ans.",difficile,,precis,0,1,1
+T13,"Inscris-moi au foot ou au basket, j'ai 16 ans, je m'appelle Ali.",difficile,,precis,0,1,1
+T14,"salut inscri moi au volley stp jai 19 ans moi c est Salma",difficile,verifier_eligibilite;creer_inscription,confirm,1,1,0
+T15,"Inscris-moi au volley, j'ai 150 ans, je m'appelle Max.",difficile,,99 ans,1,1,1
+T16,"Inscris-moi au volley, j'ai 19 ans.",difficile,verifier_eligibilite,nom,1,1,0
+T17,"Je voudrais m'inscrire à la natation, j'ai 16 ans, je m'appelle Lina.",refus,verifier_eligibilite,tranche,1,1,0
+T18,"Quels événements proposez-vous ce mois-ci ?",normal,lister_evenements,E01;E06,0,0,0
+T19,"Je veux m'inscrire au volley, je m'appelle Nour.",difficile,,age,1,1,1
+T20,"Puis-je m'inscrire au volley ? J'ai 12 ans.",normal,verifier_eligibilite,tranche,1,0,0

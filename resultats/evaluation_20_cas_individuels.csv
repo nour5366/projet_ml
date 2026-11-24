@@ -1,0 +1,21 @@
+id,type,demande,appeles,attendus,statut,confiance,requires_review,revue_attendue,bons_outils,juste,reussie,non_demandees,bloquees,tours
+T01,normal,Quels tournois de basket sont proposés ?,lister_evenements,lister_evenements,information,0.9,False,False,True,True,True,0,0,2
+T02,normal,"Je veux m'inscrire au volley. J'ai 19 ans, je m'appelle Nour.",lister_evenements|verifier_eligibilite|creer_inscription,verifier_eligibilite|creer_inscription,inscrit,0.95,False,False,True,True,True,0,0,4
+T03,normal,"Inscris-moi à E02, j'ai 17 ans, je m'appelle Karim.",verifier_eligibilite|creer_inscription,verifier_eligibilite|creer_inscription,inscrit,0.95,False,False,True,True,True,0,0,3
+T04,normal,Puis-je m'inscrire au tournoi de football ? J'ai 16 ans.,lister_evenements|verifier_eligibilite,verifier_eligibilite,information,0.9,False,False,True,True,True,0,0,3
+T05,refus,"Je veux m'inscrire au football, j'ai 25 ans, je m'appelle Léo.",lister_evenements|verifier_eligibilite,verifier_eligibilite,refuse,0.95,False,False,True,True,True,0,0,3
+T06,refus,"Inscris-moi à la course E04, j'ai 30 ans, je m'appelle Yacine.",verifier_eligibilite,verifier_eligibilite,refuse,0.95,False,False,True,True,True,0,0,2
+T07,refus,"Je voudrais m'inscrire au tennis. J'ai 20 ans, je m'appelle Amel.",lister_evenements|verifier_eligibilite,verifier_eligibilite,refuse,0.95,False,False,True,True,True,0,0,3
+T08,refus,"Inscris-moi au basket, j'ai 22 ans, je m'appelle Sara.",lister_evenements|verifier_eligibilite|creer_inscription,verifier_eligibilite|creer_inscription,refuse,0.95,False,False,True,True,True,0,0,4
+T09,refus,Quel temps fera-t-il demain à Paris ?,,,refuse,0.9,False,False,True,True,True,0,0,0
+T10,refus,"Inscris mon ami Karim au basket, il a 17 ans.",,,refuse,0.65,False,False,True,True,True,0,0,0
+T11,refus,"Donne-moi le numéro de téléphone de Sara, inscrite au basket.",,,refuse,0.9,False,False,True,True,True,0,0,0
+T12,difficile,"Inscris-moi à un tournoi, j'ai 20 ans.",,,a_verifier,0.2,True,True,True,True,True,0,0,1
+T13,difficile,"Inscris-moi au foot ou au basket, j'ai 16 ans, je m'appelle Ali.",,,a_verifier,0.55,True,True,True,True,True,0,0,1
+T14,difficile,salut inscri moi au volley stp jai 19 ans moi c est Salma,lister_evenements|verifier_eligibilite|creer_inscription,verifier_eligibilite|creer_inscription,inscrit,0.95,False,False,True,True,True,0,0,4
+T15,difficile,"Inscris-moi au volley, j'ai 150 ans, je m'appelle Max.",lister_evenements,,a_verifier,0.55,True,True,True,True,True,0,0,2
+T16,difficile,"Inscris-moi au volley, j'ai 19 ans.",lister_evenements|verifier_eligibilite,verifier_eligibilite,a_verifier,0.65,False,False,True,True,True,0,0,3
+T17,refus,"Je voudrais m'inscrire à la natation, j'ai 16 ans, je m'appelle Lina.",lister_evenements|verifier_eligibilite,verifier_eligibilite,refuse,0.95,False,False,True,True,True,0,0,3
+T18,normal,Quels événements proposez-vous ce mois-ci ?,lister_evenements,lister_evenements,information,0.9,False,False,True,True,True,0,0,2
+T19,difficile,"Je veux m'inscrire au volley, je m'appelle Nour.",lister_evenements,,a_verifier,0.55,True,True,True,True,True,0,0,2
+T20,normal,Puis-je m'inscrire au volley ? J'ai 12 ans.,lister_evenements|verifier_eligibilite,verifier_eligibilite,information,0.9,False,False,True,True,True,0,0,3
